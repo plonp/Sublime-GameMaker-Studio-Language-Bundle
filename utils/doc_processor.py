@@ -3,9 +3,7 @@ from collections import namedtuple
 
 docs_folder_path = "../GameMaker Studio 2 Offical Docs/"
 syntax_output_path = "../gml.YAML-tmLanguage"
-syntax_output_path_legacy = "../gmll.YAML-tmLanguage"
 completions_output_path = "../gml.sublime-completions"
-completions_output_path_legacy = "../gmll.sublime-completions"
 functions_file_name = "fnames"
 functions_file_name_legacy = "fnames14"  # Old version of GML
 
@@ -56,9 +54,6 @@ def process_documentation(function_path, ext):
     if ext == "gml":
         name = "GameMaker Language (GML)"
         id = "7eb40f01-b63d-4115-81c7-069f032bb76a"
-    else:
-        name = "GameMaker Language Legacy (GMLL)"
-        id = "44f1359e-0eb0-4662-a52d-bf0c8a454f23"
     syntax_head = r"""# [PackageDev] target_format: plist, ext: tmLanguage
 ---
 name: """ + name + """
@@ -203,7 +198,6 @@ def read_functions(path):
 
 # Dump the files
 syntax, completion = process_documentation(docs_folder_path + functions_file_name, 'gml')
-syntax_legacy, completion_legacy = process_documentation(docs_folder_path + functions_file_name_legacy, 'gmll')
 
 with open(syntax_output_path, 'w', encoding='utf-8') as f:
     f.write(syntax)
