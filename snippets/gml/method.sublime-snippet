@@ -1,0 +1,9 @@
+﻿<snippet>
+    <content><![CDATA[
+method(${1:struct_ref_or_instance_id}, ${2:func})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>method</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+</snippet>

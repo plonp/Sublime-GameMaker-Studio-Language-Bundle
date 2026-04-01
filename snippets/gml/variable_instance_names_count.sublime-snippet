@@ -1,0 +1,9 @@
+﻿<snippet>
+    <content><![CDATA[
+variable_instance_names_count(${1:instance_id})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>variable_instance_names_count</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+</snippet>

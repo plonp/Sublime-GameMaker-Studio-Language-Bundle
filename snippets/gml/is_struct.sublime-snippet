@@ -1,0 +1,9 @@
+﻿<snippet>
+    <content><![CDATA[
+is_struct(${1:val})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>is_struct</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+</snippet>

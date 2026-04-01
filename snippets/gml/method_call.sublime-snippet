@@ -1,0 +1,9 @@
+﻿<snippet>
+    <content><![CDATA[
+method_call(${1:method}, ${2:[array_args]}, ${3:[offset]}, ${4:[num_args]})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>method_call</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+</snippet>
