@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+array_get_index(${1:array}, ${2:value})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>array_get_index</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Gets the index of a specific value in the given array.</description>
+</snippet>

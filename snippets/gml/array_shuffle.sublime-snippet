@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+array_shuffle(${1:array})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>array_shuffle</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Returns a new array with original element(s) randomly reordered.</description>
+</snippet>

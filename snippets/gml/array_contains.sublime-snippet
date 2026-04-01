@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+array_contains(${1:array}, ${2:value})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>array_contains</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Check if the given value exists in the array, or in a part of it.</description>
+</snippet>

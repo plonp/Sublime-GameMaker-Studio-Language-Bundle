@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+array_push(${1:variable}, ${2:value})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>array_push</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Push value(s) onto the end of an array without having to know the length of the array.</description>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+array_sort(${1:array}, ${2:sorttype_or_function})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>array_sort</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>sort an array in ascending order or descending order or using a custom function to define the sort order.</description>
+</snippet>

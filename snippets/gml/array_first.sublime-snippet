@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+array_first(${1:array})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>array_first</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Return the first element of a given array, i.e. first element at index 0.</description>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+array_reverse(${1:array})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>array_reverse</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Returns a new array with all the elements from the given array in a reversed order</description>
+</snippet>

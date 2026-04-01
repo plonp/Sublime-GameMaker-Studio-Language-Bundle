@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+array_last(${1:array})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>array_last</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Return last of given array, i.e. last element at index (array_length(array)-1).</description>
+</snippet>
