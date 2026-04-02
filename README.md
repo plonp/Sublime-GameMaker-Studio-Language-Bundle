@@ -6,5 +6,6 @@
 
 Original repo [Sublime-GameMaker-Studio-Language-Bundle](https://github.com/uduse/Sublime-GameMaker-Studio-Language-Bundle) by [uduse](https://github.com/uduse)
 
+---
 ### List of New Functions
 - [Video](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Reference/Drawing/Videos/Videos.htm)
