@@ -6,4 +6,5 @@ draw_clear_alpha(${1:col}, ${2:alpha})
     <tabTrigger>draw_clear_alpha</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.gml</scope>
+    <description>Clear the entire screen with a given colour and the alpha component of the destination is set to the value you have set - this function does not do any blending as it works but any subsequent blend operations can be set up to use the destination alpha that you have set.</description>
 </snippet>

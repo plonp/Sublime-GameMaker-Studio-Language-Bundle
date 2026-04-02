@@ -1,9 +1,10 @@
 ﻿<snippet>
     <content><![CDATA[
-array_length_2d(${1:variable}, ${2:index})
+gpu_get_depth()
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>array_length_2d</tabTrigger>
+    <tabTrigger>gpu_get_depth</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.gml</scope>
+    <description>Return current depth (i.e. the z coordinate) for the 2D drawing functions (such as sprites or primitives)</description>
 </snippet>
