@@ -40,3 +40,7 @@ class GameMakerLanguageCompletions(sublime_plugin.EventListener):
         enabled = s.get("gml_dynamic_completion_enabled", False)
         if enabled and view.match_selector(locations[0], "source.gml"):
             return [["%s\t〔%s〕" % (name, model), name] for model, name in generate_completions()]
+
+    # def on_modified(self, view):
+    #     if re.search(".*\.gml", view.file_name()):
+    #         view.run_command("mark_dynamic_names")
