@@ -6,4 +6,5 @@ gpu_set_blendmode(${1:mode})
     <tabTrigger>gpu_set_blendmode</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.gml</scope>
+    <description>Set the GPU blend mode where source or dest could be (one of bm_zero, bm_one, bm_src_colour, bm_inv_src_colour, bm_src_alpha, bm_inv_src_alpha, bm_dest_alpha, bm_inv_dest_alpha, bm_dest_colour, bm_inv_dest_colour, bm_src_alpha_sat)</description>
 </snippet>

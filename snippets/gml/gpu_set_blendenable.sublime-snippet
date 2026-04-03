@@ -6,4 +6,5 @@ gpu_set_blendenable(${1:enable})
     <tabTrigger>gpu_set_blendenable</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.gml</scope>
+    <description>Enable or disable the GPU blending</description>
 </snippet>
