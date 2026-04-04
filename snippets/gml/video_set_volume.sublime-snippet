@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+video_set_volume(${1:value})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>video_set_volume</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Change the audio volume of the video loaded. Takes a value between 0 and 1.</description>
+</snippet>

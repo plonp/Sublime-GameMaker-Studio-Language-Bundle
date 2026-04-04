@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+video_draw()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>video_draw</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Draw the current frame of the opened video to a surface (or two surfaces). Return surface(s) in array.</description>
+</snippet>

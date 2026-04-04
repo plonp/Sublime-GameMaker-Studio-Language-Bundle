@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+video_get_status()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>video_get_status</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Return the status of the currently loaded video. Status include ( video_status_closed | video_status_preparing | video_status_playing | video_status_paused ).</description>
+</snippet>

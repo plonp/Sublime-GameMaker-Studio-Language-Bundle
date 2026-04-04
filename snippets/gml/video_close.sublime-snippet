@@ -1,0 +1,10 @@
+﻿<snippet>
+    <content><![CDATA[
+video_close()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>video_close</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.gml</scope>
+    <description>Close video file that is currently loaded.</description>
+</snippet>
